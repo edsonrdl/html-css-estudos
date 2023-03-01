@@ -1,0 +1,19 @@
+.container-1{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background: red;
+}
+.itens-1{
+    margin: 10px;
+    background-color: blueviolet;
+}
+.container-2{
+    height: 300px;
+}
+.container-3{
+    height: 300px;
+}
+.container-4{
+    height: 300px;
+}

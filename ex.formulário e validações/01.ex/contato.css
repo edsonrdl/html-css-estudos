@@ -1,0 +1,18 @@
+button:hover{
+    background-color: rgb(21,4 , 98);
+    color: white;
+    cursor: pointer;
+}
+input:focus,textarea:focus{
+    border-color:  rgb(21,4 , 98)!important;
+}
+input:invalid,textarea:invalid{
+    border-color: red;
+}
+input:valid,textarea:valid{
+    border-color: green;
+}
+
+input:invalid,textarea:invalid{
+    border-color: green;
+}
