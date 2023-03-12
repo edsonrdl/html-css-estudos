@@ -1,0 +1,40 @@
+.teste1{
+    width: 100%;
+    background: blue;
+    display: inline-block;
+}
+.teste2{
+    display: inline-block;
+    width: 100%;
+    background: rgb(128, 255, 0);
+}
+.texto2{
+    color: rgb(255, 47, 0);
+}
+@media   (max-width:600px){
+    .teste1{
+        width: 100%;
+        background: rgb(174, 0, 255)!important;
+       
+    }
+    .texto2{
+        color: blueviolet;
+    }
+    .texto2:hover{
+        color: rgb(226, 43, 43);
+    }
+
+}
+@media(max-width:600px){
+    .teste2{
+        width: 100%;
+        background: red;
+    }
+    .texto1{
+        color: rgb(43, 73, 226);
+    }
+    .texto1:hover{
+        color: rgb(151, 128, 128);
+    }
+
+}
