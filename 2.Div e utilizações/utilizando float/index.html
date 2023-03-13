@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Float</title>
+</head>
+<!-- Float em HTML e CSS é uma propriedade que permite que um elemento (como uma imagem ou um bloco de texto) seja posicionado à esquerda ou à direita de um contêiner, com o restante do conteúdo fluindo ao redor dele. -->
+<!-- A propriedade float aceita os valores "left" (esquerda) e "right" (direita), indicando a direção na qual o elemento deve flutuar.
+     É importante notar que, ao flutuar um elemento, ele é removido do fluxo normal do documento e pode afetar o layout do restante do conteúdo.
+    Porém ele não esconde o conteúdo ,caso uma div fique sobre a outra ,o conteúdo vai ficar aparecendo em um lugar diferente
+Caso estiver dentro de uma div e quiser por um fundo ,ele não vai fazer efeito até a div que está utilizando o floa por já está em outro contexto.
+Para inserir utilizando o article que é o paiu usa o overflow:hidden no css;o hidden esconde dependendo do tamanho definido ou no automático usando o tamanho do que está fluando para poder incluir
+ 
+A propriedade CSS "overflow" é usada para definir como o conteúdo de um elemento deve ser tratado quando ultrapassa o tamanho do elemento. Ela controla o que acontece com o conteúdo que estoura além dos limites do elemento.
+
+Existem quatro valores que podem ser atribuídos à propriedade "overflow":
+
+"visible": Este é o valor padrão. O conteúdo que ultrapassa o tamanho do elemento é exibido fora dele.
+
+"hidden": O conteúdo que ultrapassa o tamanho do elemento é ocultado. Isso é útil quando você não quer que o conteúdo transborde e estrague o layout da página.
+
+"scroll": O conteúdo que ultrapassa o tamanho do elemento é exibido, mas uma barra de rolagem é adicionada ao elemento para permitir que o usuário role e veja o restante do conteúdo.
+
+"auto": Este valor é semelhante a "scroll", mas a barra de rolagem só é exibida se for necessário. Caso contrário, o conteúdo é exibido normalmente.
+
+A propriedade CSS "overflow" é traduzida para o português como "transbordamento" ou "estouro". Isso reflete o fato de que a propriedade controla o que acontece com o conteúdo de um elemento quando ele transborda seus limites. Dependendo do valor atribuído à propriedade "overflow", o conteúdo pode ser exibido fora do elemento, ocultado, ou permitido que o usuário role para ver o restante.-->
+<body>
+        <article>
+            <div class="elementExample elementeExample_first">Apenas uma div</div>
+            <div class="elementExample elementeExample_last">Apenas uma outra div</div>
+            <p class="elementParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, necessitatibus. Ut explicabo sed blanditiis ex sunt, quo saepe delectus, corrupti veniam expedita animi hic, consectetur perferendis obcaecati tempore nemo id!</p>
+        
+        </article>
+
+    
+</body>
+</html>
