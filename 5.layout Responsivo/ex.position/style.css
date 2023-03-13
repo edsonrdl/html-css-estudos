@@ -1,0 +1,21 @@
+.elementExample{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.elementeExample_first{
+    background-color: rgb(243, 37, 23);
+    position: relative;
+    top: 200px;
+}
+.elementeExample_last{
+    background-color: rgb(124, 13, 100);
+    position: relative;
+}
+.elementExample_isActive{
+    z-index: 1;
+}
