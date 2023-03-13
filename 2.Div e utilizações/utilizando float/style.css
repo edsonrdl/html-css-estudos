@@ -21,4 +21,6 @@ article{
     background-color: rgb(204, 0, 255);
     overflow: hidden;
 }
-
+p{
+    clear: both;
+}
