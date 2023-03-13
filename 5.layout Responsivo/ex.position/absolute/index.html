@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>absolute</title>
+</head>
+<!-- 
+Para respeitar o pai tem que ser position diferente de static
+Caso o objetivo é colocar exatamente ao centro usa o position:absolute depois o left ou rigth  e se colocar 50% da página ele n vai ficar exatamente,apenas o começo dela ,após isso usa o transform 
+Para arrastar em relaçao ao eixos usando o translateX()/translateY() usando (-) para a esquerda (+) para a direita
+Em CSS, a propriedade "transform" é usada para aplicar transformações (como rotação, escalonamento, inclinação, etc.) em elementos HTML.
+
+A propriedade "transform" permite que você altere a aparência e o layout de um elemento sem afetar seu fluxo normal na página. Você pode usar essa propriedade para fazer animações, criar efeitos visuais interessantes, ajustar a posição de um elemento e muito mais.
+Ele pega como referência o elemento enquanto o left e rigth pega em relação a página
+A propriedade "transform" aceita vários valores, como "rotate" (para girar um elemento), "scale" (para aumentar ou diminuir o tamanho de um elemento), "skew" (para inclinar um elemento), "translate" (para mover um elemento para uma nova posição) e outros.
+
+-->
+
+<body>
+        <div class="elementExample elementeExample_first ">Apenas uma div</div>
+        <div class="elementExample elementeExample_second">Apenas uma outra div</div>
+        <div class="elementExample elementeExample_last " >
+            <div class="elementeExample-interna">
+                Interna
+            </div>
+        </div> 
+   
+     <script type="module" src="app.js">
+     </script>
+</body>
+</html>
