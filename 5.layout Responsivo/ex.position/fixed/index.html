@@ -8,26 +8,25 @@
     <title>fixed</title>
 </head>
 <!-- 
-Para respeitar o pai tem que ser position diferente de static
-Caso o objetivo é colocar exatamente ao centro usa o position:absolute depois o left ou rigth  e se colocar 50% da página ele n vai ficar exatamente,apenas o começo dela ,após isso usa o transform 
-Para arrastar em relaçao ao eixos usando o translateX()/translateY() usando (-) para a esquerda (+) para a direita
-Em CSS, a propriedade "transform" é usada para aplicar transformações (como rotação, escalonamento, inclinação, etc.) em elementos HTML.
+A propriedade CSS "position: fixed" é usada para posicionar um elemento na página de forma fixa em relação à janela do navegador. Isso significa que o elemento ficará sempre na mesma posição, mesmo que a página seja rolada.
 
-A propriedade "transform" permite que você altere a aparência e o layout de um elemento sem afetar seu fluxo normal na página. Você pode usar essa propriedade para fazer animações, criar efeitos visuais interessantes, ajustar a posição de um elemento e muito mais.
-Ele pega como referência o elemento enquanto o left e rigth pega em relação a página
-A propriedade "transform" aceita vários valores, como "rotate" (para girar um elemento), "scale" (para aumentar ou diminuir o tamanho de um elemento), "skew" (para inclinar um elemento), "translate" (para mover um elemento para uma nova posição) e outros.
+Essa propriedade é útil para elementos que precisam ficar sempre visíveis na tela, como menus de navegação, barras laterais, botões de chamada para ação, entre outros.
+
+Para usar a propriedade "position: fixed" em CSS, você precisa definir as seguintes propriedades:
+
+"position: fixed" para indicar que o elemento deve ser posicionado de forma fixa
+"top", "left", "right" ou "bottom" para indicar a posição em que o elemento deve ser fixado.
 
 -->
 
 <body>
-        <div class="elementExample elementeExample_first ">Apenas uma div</div>
-        <div class="elementExample elementeExample_second">Apenas uma outra div</div>
-        <div class="elementExample elementeExample_last " >
-            <div class="elementeExample-interna">
-                Interna
-            </div>
-        </div> 
-   
+    <div class="elementExample elementeExample_last " >
+    <div class="elementeExample-interna">Interna</div>
+    </div> 
+            <div class="elementExample elementeExample_first ">Apenas uma div</div>
+            <div class="elementExample elementeExample_second">Apenas uma outra div</div>
+        
+    
      <script type="module" src="app.js">
      </script>
 </body>
