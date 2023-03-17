@@ -1,19 +1,20 @@
 body {
   display: grid;
-  grid-template-columns: repeat(2, 6fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 20px;
   place-items: center;
 }
 
 img {
-  max-width: 100%;
+  max-width: 200px;
+  height: 200px;
   display: block;
 }
 
 div {
-  max-width: 200px;
+  max-width: 100%;
 }
-
+/* .mask é usado para tirar da tela o svg */
 .mask {
   width: 0px;
   height: 0px;
