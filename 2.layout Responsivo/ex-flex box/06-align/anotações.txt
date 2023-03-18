@@ -1,2 +1,1 @@
 align-items   utiliza o eixo x
-align-items só funciona se tiver flex-flow wrap
