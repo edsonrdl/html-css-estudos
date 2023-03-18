@@ -1,0 +1,3 @@
+o flex-wrap vai deixar os elementos quebrarem linhas e assim não ficarem apertado
+flex-direction row vai ter mais linhas 
+flex-direction-column vai ter mais colunas
