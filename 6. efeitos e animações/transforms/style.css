@@ -1,0 +1,29 @@
+body{
+    background: black;
+}
+.div-imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgb(248, 142, 216);
+}
+.img-coracao{
+    display: flex;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: 200ms transform cubic-bezier(0, 0.49, 0.18, 1.88);
+ 
+}
+.img-coracao:hover{
+transform: scale(1.2);
+transition: 400ms transform cubic-bezier(0, 0.49, 0.18, 1.88);
+
+
+}
