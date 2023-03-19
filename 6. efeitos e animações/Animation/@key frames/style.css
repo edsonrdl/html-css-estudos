@@ -25,7 +25,7 @@ body{
     width: 200px;
     height: auto;
     animation:movimentarHorizontal ;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 @keyframes movimentarHorizontal{
@@ -33,6 +33,6 @@ body{
         
     }
     to{
-        transform: translateX(470px);
+        transform: translateX(900px);
     }
 } 
