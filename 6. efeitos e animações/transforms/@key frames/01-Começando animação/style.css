@@ -27,10 +27,7 @@ body{
     animation:movimentarHorizontal ;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-fill-mode: backwards; 
 }
-
-
 @keyframes movimentarHorizontal{
     from{ transform: translateX(0px);
         

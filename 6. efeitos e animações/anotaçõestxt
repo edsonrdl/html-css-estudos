@@ -1,5 +1,5 @@
 animation-duration:  ;   --> duração da animação 
-animation-fill-node:forwards  ;    --> Para quando acabar a animação ,não sair
+animation-fill-mode:forwards  ;    --> Para quando acabar a animação ,não sair
 animation-timing-funcion:   ;   -->  duação de uma animação 
 animation-delay:   ;   -->  duação de uma animação na inicialização  
 animation-direction:   ;   --> lado que inicia a animação 
