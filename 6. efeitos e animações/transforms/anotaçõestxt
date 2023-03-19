@@ -1,0 +1,37 @@
+As propriedades do transform são usadas para aplicar transformações (como rotação, escala, translação e deformação) em elementos HTML. As propriedades são:
+
+transform-origin: Define o ponto de origem da transformação. É o ponto em relação ao qual o elemento será transformado. O valor padrão é o centro do elemento.
+
+translate: Translada o elemento ao longo do eixo X e/ou Y. Pode ser especificado como um valor único (para a translação no eixo X) ou dois valores (para a translação nos eixos X e Y).
+
+translateX: Translada o elemento ao longo do eixo X.
+
+translateY: Translada o elemento ao longo do eixo Y.
+
+scale: Escala o elemento ao longo do eixo X e/ou Y. Pode ser especificado como um valor único (para a escala no eixo X) ou dois valores (para a escala nos eixos X e Y).
+
+scaleX: Escala o elemento ao longo do eixo X.
+
+scaleY: Escala o elemento ao longo do eixo Y.
+
+rotate: Rotaciona o elemento em graus em torno do ponto de origem definido. Pode ser especificado como um valor único para a rotação em graus.
+
+skew: Deforma o elemento em graus em relação aos eixos X e/ou Y. Pode ser especificado como um valor único (para a deformação no eixo X) ou dois valores (para a deformação nos eixos X e Y).
+
+skewX: Deforma o elemento em graus em relação ao eixo X.
+
+skewY: Deforma o elemento em graus em relação ao eixo Y.
+
+A tradução dessas propriedades para o português seria:
+
+transform-origin: Origem da transformação
+translate: Translação
+translateX: Translação no eixo X
+translateY: Translação no eixo Y
+scale: Escala
+scaleX: Escala no eixo X
+scaleY: Escala no eixo Y
+rotate: Rotação
+skew: Deformação
+skewX: Deformação no eixo X
+skewY: Deformação no eixo Y

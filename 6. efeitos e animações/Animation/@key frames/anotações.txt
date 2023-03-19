@@ -1,11 +1,4 @@
 Como usar 
-
-
-
-
-
-
-
 @key frames nome{
     from {
 opacity: 0;

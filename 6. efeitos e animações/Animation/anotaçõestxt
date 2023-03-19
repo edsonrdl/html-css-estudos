@@ -1,0 +1,93 @@
+As propriedades CSS de animação (animation) são usadas para definir animações em elementos HTML. Aqui estão as principais propriedades de animação CSS divididas por tópicos:
+
+animation-name: qualquer nome válido em CSS para uma animação definida com a regra @keyframes.
+animation-duration: um valor numérico seguido de um sufixo de unidade (por exemplo, "2s" para 2 segundos).
+animation-timing-function: um valor de função de tempo válido em CSS, como linear, ease, ease-in, ease-out, ease-in-out, ou uma função de tempo personalizada.
+animation-delay: um valor numérico seguido de um sufixo de unidade (por exemplo, "2s" para 2 segundos).
+animation-iteration-count: um valor numérico ou a palavra-chave infinite.
+animation-direction: uma das seguintes palavras-chave: normal, reverse, alternate, alternate-reverse.
+animation-fill-mode: uma das seguintes palavras-chave: none, forwards, backwards, both.
+animation-play-state: uma das seguintes palavras-chave: running, paused.
+
+Propriedades:
+Propriedades de Animação
+animation-name
+Define o nome da animação que será aplicada a um elemento HTML.
+Valor: Nome da animação ou "none"
+Tradução: Nome da animação ou "nenhum"
+
+Propriedades:
+animation-duration
+Define a duração da animação em segundos ou milissegundos.
+Valor: Tempo em segundos ou milissegundos
+Tradução: Duração da animação em segundos ou milissegundos
+
+Propriedades:
+animation-timing-function
+Define a curva de tempo para a animação. Isso controla como a animação progride ao longo do tempo.
+Valor: Função de tempo (ease, linear, ease-in, ease-out, ease-in-out)
+Tradução: Curva de tempo (fácil, linear, fácil de entrar, fácil de sair, fácil de entrar e sair)
+
+
+Propriedades:
+animation-delay
+Define o tempo de espera antes de a animação começar.
+Valor: Tempo em segundos ou milissegundos
+Tradução: Atraso da animação em segundos ou milissegundos
+
+Propriedades:
+animation-iteration-count
+Define o número de vezes que a animação deve ser repetida.
+Valor: Número ou "infinite"
+Tradução: Número de vezes que a animação deve ser repetida ou "infinito"
+
+Propriedades:
+animation-direction
+Define a direção da animação. Isso controla se a animação é executada para frente e para trás.
+
+
+Abaixo estão os valores possíveis que cada propriedade pode receber:
+
+animation-name: qualquer nome válido em CSS para uma animação definida com a regra @keyframes.
+animation-duration: um valor numérico seguido de um sufixo de unidade (por exemplo, "2s" para 2 segundos).
+animation-timing-function: um valor de função de tempo válido em CSS, como linear, ease, ease-in, ease-out, ease-in-out, ou uma função de tempo personalizada.
+animation-delay: um valor numérico seguido de um sufixo de unidade (por exemplo, "2s" para 2 segundos).
+animation-iteration-count: um valor numérico ou a palavra-chave infinite.
+animation-direction: uma das seguintes palavras-chave: normal, reverse, alternate, alternate-reverse.
+animation-fill-mode: uma das seguintes palavras-chave: none, forwards, backwards, both.
+animation-play-state: uma das seguintes palavras-chave: running, paused.
+
+
+Propriedades de keyframes
+@keyframes: define um conjunto de regras de animação.
+animation-duration: define a duração da animação.
+animation-timing-function: define o modo de tempo da animação.
+animation-delay: define o atraso antes de iniciar a animação.
+animation-iteration-count: define o número de vezes que a animação deve ser reproduzida.
+animation-direction: define a direção da animação.
+animation-fill-mode: define como os estilos aplicados devem ser mantidos antes e depois da animação.
+animation-play-state: define se a animação está em execução ou pausada.
+
+
+As propriedades que podem ser definidas dentro da regra @keyframes são as mesmas propriedades listadas acima para a propriedade animation. No entanto, dentro da regra @keyframes, elas se aplicam a diferentes momentos da animação, especificados por percentuais ou palavras-chave (como from e to).
+
+As propriedades utilizadas em animações com @keyframes são:
+animation-name: Define o nome da animação, que é referenciado em outras propriedades animation.
+animation-duration: Define a duração da animação em segundos ou milissegundos.
+animation-timing-function: Define a curva de tempo da animação, ou seja, como a animação progride ao longo do tempo.
+animation-delay: Define o tempo de espera antes do início da animação.
+animation-iteration-count: Define quantas vezes a animação deve ser executada.
+animation-direction: Define a direção da animação.
+animation-fill-mode: Define como a animação deve se comportar antes e depois de ser executada.
+animation-play-state: Define se a animação está em execução ou pausada.
+animation-keyframes: Define a sequência de etapas que a animação deve seguir. Cada etapa é definida com um nome de chave e um conjunto de propriedades CSS que são aplicadas durante essa etapa.
+
+
+Propriedades de transformação
+transform: aplica uma transformação 2D ou 3D a um elemento.
+transform-origin: define o ponto de origem de uma transformação.
+
+Abaixo estão os valores possíveis que cada propriedade pode receber:
+
+transform: qualquer valor válido em CSS para uma transformação 2D ou 3D, como translate(), rotate(), scale(), skew(), perspective(), ou uma matriz de transformação.
+transform-origin: um valor de posição
