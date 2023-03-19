@@ -1,0 +1,13 @@
+
+$color1:rgb(105, 105, 105);
+$color2:rgb(213, 176, 221);
+$color3:rgb(248, 43, 248);
+$color4:rgb(98, 6, 110);
+$color1Text:rgb(255, 255, 255);
+
+@mixin flexCenter($teste){
+    display: flex;
+    flex-direction: row;
+    justify-content: $teste;
+
+}

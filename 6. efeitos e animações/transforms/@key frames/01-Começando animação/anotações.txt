@@ -1,0 +1,46 @@
+Como usar 
+
+
+
+
+
+
+
+@key frames nome{
+    from {
+opacity: 0;
+    }
+to {
+opacity: 1;
+
+}
+}
+
+E depois usar o nome no seletor
+exemplo
+#exemplo{
+    animation-name:nome;
+    animation-duration:;
+}
+
+o duration precisa para iniciar 
+
+adicionando porcentagem
+
+@key frames nome{
+  0%{
+    transform : translate(0px) scale(.5)
+  }
+  25%{
+    transform : translate(200px) 
+  }
+  50%{
+    transform : translate(200px, -200px)  scale(1.5);
+  }
+  75%{
+    transform : translate(0px,-200px)
+  }
+  100%{
+    transform : translate(0px) scale (1.5)  
+  }
+}

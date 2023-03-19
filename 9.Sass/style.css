@@ -1,0 +1,81 @@
+* {
+  padding: o;
+  margin: o;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bola1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(105, 105, 105);
+}
+.bola1 a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bola1:hover {
+  background: rgb(213, 176, 221);
+}
+
+.bola2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(105, 105, 105);
+}
+.bola2 a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bola2:hover {
+  background: rgb(248, 43, 248);
+}
+
+.bola3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(105, 105, 105);
+}
+.bola3 a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bola3:hover {
+  background: rgb(98, 6, 110);
+}/*# sourceMappingURL=style.css.map */

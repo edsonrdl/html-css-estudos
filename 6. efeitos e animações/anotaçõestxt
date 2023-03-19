@@ -1,0 +1,11 @@
+animation-duration:  ;   --> duração da animação 
+animation-fill-node:forwards  ;    --> Para quando acabar a animação ,não sair
+animation-timing-funcion:   ;   -->  duação de uma animação 
+animation-delay:   ;   -->  duação de uma animação na inicialização  
+animation-direction:   ;   --> lado que inicia a animação 
+animation-pay-state:   ;   --> estado da nimação se está rodando ou não 
+animation-iteration-count:   ;   --> quantas vezes vai ocorrer a animação
+animation; load 2s linear  infinite;
+
+
+animation:   ; resume tudo só passando o que deseja 
