@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag picture</title>
+</head>
+<body>
+    <h1>Permite a utilização de imagens em diferentes tamnhos sem a necessidade de uso de imagens muito grandes sem utilidade </h1>
+    <picture><!--Permite por diversos src dentro dela pela tag img-->
+        <source srcset="imagem-grande.jpg" media="(min-width: 800px)">
+        <source srcset="imagem-media.jpg" media="(min-width: 500px)">
+        <img src="imagem-pequena.jpg" alt="Descrição da imagem">
+
+        
+    </picture>i
+</body>
+</html>
