@@ -1,0 +1,13 @@
+/*Seletor de id já é único e só pode ser usado no elemento especificado*/
+/*Caso queira que elementos iguais tenha o mesmo comeportamento usa-se o class ou o seletor de elemento*/
+/* #nome-id{estilos} */
+
+#seletor-id-1{
+    /*Estilos*/
+}
+#seletor-id-2{
+    /*Estilos*/
+}
+#seletor-id-3{
+    /*Estilos*/
+}

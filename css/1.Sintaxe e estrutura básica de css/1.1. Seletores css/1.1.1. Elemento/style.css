@@ -1,0 +1,5 @@
+/*Para selecionar a div no html e alterar seu estilo usa o seletor do elemento */
+/*Porém vai alterar todas as div por conta do seletor de elemento n definir apenas uma tag*/
+div{
+    /*Estilos*/
+}
