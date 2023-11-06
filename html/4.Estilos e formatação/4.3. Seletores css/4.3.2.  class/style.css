@@ -1,0 +1,10 @@
+/*Seletor de class pode definir em quantos elementos html quiser deixa mais dinamico */
+/*Caso queira que tenha outro comportamento é so definir outra class e usar o seletor adicionar o ponto no começo do nosso da class*/
+/* .nome-class{estilos} */
+
+.seletor-class-1{
+    /*Estilos*/
+}
+.seletor-class-2{
+    /*Estilos*/
+}
