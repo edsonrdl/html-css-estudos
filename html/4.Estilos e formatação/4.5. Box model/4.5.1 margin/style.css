@@ -2,28 +2,19 @@
 /*Margin 1 2 3 4 */
 /*1-para cima, 2-para a direita, 3-para baixo 4-para a esquerda*/
 body{
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(255, 255, 255);
 }
-.texto-exemplo {
-    font-size: 20px;
-    color: rgb(119, 119, 119);
-   background-color: rgb(46, 46, 46);
-}
-#margin-para-cima{
-    margin: 20px 0px 0px 0px;
-}
-#margin-para-direita{
-    margin:  0px 20px 0px 0px;
-}
-#margin-para-baixo{
-    margin:  0px 0px 20px 0px;
-}
-#margin-para-esquerda{
-    margin: 0px 0px 0px  20px;
-}
-#margin-para-0{
-    margin: 0px 0px 0px  0px;
+.div-test{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    background: rgb(102, 102, 102);
+
 }
 #margin{
-    margin: 30px;
+    width: auto;
+    height: 200px;
+    background:yellow;
+    margin:20px 0px 0px 0px ;
 }
+
