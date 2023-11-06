@@ -1,0 +1,6 @@
+/*Background define o fundo*/
+.texto-exemplo {
+    font-size: 200px;
+    color: rgb(0, 0, 0);
+    background: url('https://cdn.pixabay.com/photo/2021/12/20/14/48/circuit-board-6883235_1280.jpg') no-repeat center/cover;
+}

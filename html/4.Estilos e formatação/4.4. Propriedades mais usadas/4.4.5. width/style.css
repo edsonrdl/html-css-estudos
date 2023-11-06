@@ -1,0 +1,14 @@
+/*width define a largura do  elemento*/
+#div-1 {
+    width: 100px;
+    background: rgb(46, 46, 46);
+}
+
+#div-2 {
+    width: 200px;
+    background-color: rgb(46, 46, 46);
+}
+#div-3 {
+    width: 300px;
+    background-color: rgb(46, 46, 46);
+}

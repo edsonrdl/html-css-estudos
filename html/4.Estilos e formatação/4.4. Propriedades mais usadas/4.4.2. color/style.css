@@ -1,0 +1,5 @@
+/*Color define a cor do conteúdo do elemento */
+.texto-exemplo {
+    font-size: 200px;
+    color: red;
+}

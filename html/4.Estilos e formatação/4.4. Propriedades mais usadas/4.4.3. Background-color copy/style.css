@@ -1,0 +1,6 @@
+/*Background-color define a cor de fundo */
+.texto-exemplo {
+    font-size: 200px;
+    color: rgb(119, 119, 119);
+   background-color: rgb(46, 46, 46);
+}
