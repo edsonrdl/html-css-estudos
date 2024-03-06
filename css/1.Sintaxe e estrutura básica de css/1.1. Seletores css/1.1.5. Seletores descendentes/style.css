@@ -1,0 +1,10 @@
+/*Usado elemento para selecionar as tag p  */
+
+div p{
+    color: red;
+}
+
+/*Usado class para selecionar as tag p  */
+.container p{
+    color:blue;
+}
