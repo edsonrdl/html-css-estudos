@@ -13,6 +13,6 @@ Meu objetivo é deixar claro os tópicos e subtópicos iniciais de html-css e es
 - **CSS:** 
 
 ## Imagem de tópidos de estudos
-![Alt text](<Tópicos de estudos html.png>)
+![alt text](<Tópicos de estudos html.png>)
  
 Espero que este README o ajude a compreender o objetivo desse repositório .
