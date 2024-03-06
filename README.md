@@ -1,6 +1,6 @@
-# Projeto de HTML-CSS-ESTUDOS
+## Projeto de HTML-CSS-ESTUDOS
 
-Este é um repositório é para meus estudos de html e css e para os demais que quiserem utilizar como base
+Este  repositório é para meus estudos de html e css e para os demais que quiserem utilizar como base para  seus estudos em html e css,adicionei alguns tópicois de estudos para não se perder no meio do fluxo que seguirem !
 
 ## Visão Geral  
 
