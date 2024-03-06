@@ -1,35 +1,53 @@
-.elementExample{
+html{
+    background: rgb(190, 190, 190);
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px; 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.container-1{
+    position: relative;
+    background: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+}
+.element{
     width: 200px;
     height: 200px;
-    line-height: 200px;
+    line-height: 30px;
+    font-size: 12px;
     color: #FFF;
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
 }
-.elementeExample_first{
+.elemente-1{
     position: absolute;
     right: 0;
     background-color: rgb(23, 27, 243);
    
 }
-.elementeExample_second{
+.elemente-2{
     position: absolute;
     left: 50%;
     top: 50%;
-     transform: translate(-50%,-50%); /*Outra forma de escrever */
+    transform: translate(-50%,-50%);
     background-color: rgb(14, 167, 0);
 }
-.elementeExample_last{
-    position: absolute;
-    background-color: rgb(124, 13, 100);
+.elemente-3{
+    position: relative;
+    background-color: rgb(255, 0, 0);
 }
-.elementeExample-interna{
+.elemente-interna{
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(50%);
     width: 100px;
     height: 100px;
-    line-height: 100px;
-    background-color: rgb(182, 56, 134);
+    line-height: 20px;
+    font-size: 12px;
+    background-color: rgb(50, 20, 182);
 }

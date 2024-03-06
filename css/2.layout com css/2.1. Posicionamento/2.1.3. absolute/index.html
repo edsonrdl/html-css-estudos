@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <title>absolute</title>
 </head>
-<!-- 
-Para respeitar o pai tem que ser position diferente de static
-Caso o objetivo é colocar exatamente ao centro usa o position:absolute depois o left ou rigth  e se colocar 50% da página ele n vai ficar exatamente,apenas o começo dela ,após isso usa o transform 
-Para arrastar em relaçao ao eixos usando o translateX()/translateY() usando (-) para a esquerda (+) para a direita
-Em CSS, a propriedade "transform" é usada para aplicar transformações (como rotação, escalonamento, inclinação, etc.) em elementos HTML.
-
-A propriedade "transform" permite que você altere a aparência e o layout de um elemento sem afetar seu fluxo normal na página. Você pode usar essa propriedade para fazer animações, criar efeitos visuais interessantes, ajustar a posição de um elemento e muito mais.
-Ele pega como referência o elemento enquanto o left e rigth pega em relação a página
-A propriedade "transform" aceita vários valores, como "rotate" (para girar um elemento), "scale" (para aumentar ou diminuir o tamanho de um elemento), "skew" (para inclinar um elemento), "translate" (para mover um elemento para uma nova posição) e outros.
-
--->
 
 <body>
-        <div class="elementExample elementeExample_first ">Apenas uma div</div>
-        <div class="elementExample elementeExample_second">Apenas uma outra div</div>
-        <div class="elementExample elementeExample_last " >
-            <div class="elementeExample-interna">
-                Interna
+    <div class="text">
+        <h1>Position absolute</h1>
+        <p>Para respeitar o pai tem que ser position diferente de static</p>
+        <p>Caso o objetivo é colocar exatamente ao centro usa o position:absolute, depois o left ou rigth e se colocar
+            50% da
+            página.Vai ficar no meio em relação ao elemento apenas o começo dela ,após isso usa o transform !</p>
+        <p>Para arrastar em relaçao ao eixos usando o translateX()/translateY() usando (-) para a esquerda (+) para a
+            direita como exibido na figura 3</p>
+    </div>
+    <div class="container-1">
+
+        <div class="element elemente-1">1 posicionado em relação a caixa preta alocado a direita com right </div>
+        <div class="element elemente-2">2 centralizado em relação a caixa preta</div>
+        <div class="element elemente-3">
+            <div class="element-interna">
+                3 centralizado em relação a caixa vermelha
             </div>
-        </div> 
-   
-     <script type="module" src="app.js">
-     </script>
+        </div>
+
+
+    </div>
+
+    <script type="module" src="app.js">
+    </script>
 </body>
+
 </html>
