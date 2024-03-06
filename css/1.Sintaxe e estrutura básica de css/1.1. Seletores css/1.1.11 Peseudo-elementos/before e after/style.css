@@ -1,0 +1,11 @@
+p::before {
+  content: "html";
+  color: red;
+  margin-right: 20px;
+}
+
+p::after {
+  content: "html";
+  color: blue;
+  margin-left: 20px;
+}

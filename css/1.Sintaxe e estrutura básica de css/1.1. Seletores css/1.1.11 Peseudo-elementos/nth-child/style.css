@@ -1,0 +1,19 @@
+/*Usando even para selecionar os elementos pares dentro da class .even*/
+.even p:nth-child(even) {
+  background-color: #220d9b;
+}
+
+/*Usando even para selecionar os elementos ímpares dentro da class .odd*/
+.odd p:nth-child(odd) {
+  background-color: #d10e0e;
+}
+
+/*Selecionar cada terceiro elemento a partir do segundo elemento:*/
+.terceiro-elemento-a-partir-do-segundo-elemento p:nth-child(3n + 2) {
+  background-color: #3d2e8a;
+}
+
+/*Selecionar cada terceiro elemento a partir do segundo elemento:*/
+.terceiro-elemento li:nth-child(3) {
+  background-color: #6a4ff1;
+}

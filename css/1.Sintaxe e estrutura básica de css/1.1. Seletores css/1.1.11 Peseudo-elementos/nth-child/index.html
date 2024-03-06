@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Seletores pseudo-elementos nth-child</title>
+</head>
+
+<body>
+    <!--:nth-child(an + b)-->
+    <!--n é um contador que aumenta para cada elemento pai.-->
+    <!--a e b são números inteiros.-->
+    <!--O seletor nth-child seleciona todos os elementos que correspondem à fórmula an + b.-->
+
+    <h1>Pares (Even)</h1>
+    <div class="even">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+    </div>
+
+    <h1>Pares (odd)</h1>
+    <div class="odd">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+    </div>
+
+    <h1> Selecionar cada terceiro elemento a partir do segundo elemento :nth-child(3n + 2) ,começa no segundo e a cada três elementosaplica novamente o estilo</h1>
+    <div class="terceiro-elemento-a-partir-do-segundo-elemento">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <p>6</p>
+        <p>8</p>
+        <p>9</p>
+        <p>10</p>
+    </div>
+
+    <h1> Selecionar o terceiro elemento de uma lista</h1>
+    <ul class="terceiro-elemento">
+        <li>html</p>
+        <li>css</p>
+        <li>javascript</p>
+    </ul>
+
+</body>
+
+</html>
