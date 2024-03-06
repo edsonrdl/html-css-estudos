@@ -1,0 +1,35 @@
+:root {
+    --color-background: rgb(230, 224, 224);
+    --color-white: rgb(255, 255, 255);
+    --color-black: #0A0908;
+    --color-raisin-black: #1D242E;
+    --color-shadow-black: #555555;
+    --color-gold-metallic: #9E902A;
+    --color-lion: #CC9F5E;
+    --color-olive: ##9E902A;
+    ---border-radius:10px;
+    --box-shadow-back-shadow:  20px 20px 70px var(--color-shadow-black);
+    --box-border-radius: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-background);
+}
