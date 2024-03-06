@@ -1,0 +1,24 @@
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2000px;
+    padding: 20px;
+  }
+.container-2 {
+    background: rebeccapurple;
+    height: 1000px;
+    padding: 20px;
+  }
+
+  .sticky-element {
+    top: 0px;
+    position: sticky;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
