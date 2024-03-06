@@ -7,11 +7,12 @@
     <title>Tag picture</title>
 </head>
 <body>
-    <h1>Permite a utilização de imagens em diferentes tamanhos sem a necessidade de uso de imagens muito grandes sem utilidade </h1>
+    <h1>Permite a utilização de imagens em diferentes tamanhos sem a necessidade de uso de imagens muito grandes ,dependo da resolução da tela,a imagem vai ser carregada conforme a necessidade ,sem ter que carregar imagens muito grande  </h1>
     <picture><!--Permite por diversos src dentro dela pela tag img-->
-        <source srcset="../../../../imagens para exemplos/mesma imagem tamanhos diferentes/interface-3614766_640.png" media="(min-width: 640px)">
-        <source srcset="../../../../imagens para exemplos/mesma imagem tamanhos diferentes/interface-3614766_1920.png" media="(min-width: 1920px)">
-        <img src="../../../../imagens para exemplos/mesma imagem tamanhos diferentes/interface-3614766_1280.png" alt="Descrição da imagem">
+        <source srcset="./interface-640.png" media="(min-width: 640px)">
+        <source srcset="./interface-1920.png" media="(min-width: 1920px)">
+        <!-- Se nenhuma das condições de mídia corresponder, esta será a fonte padrão -->
+        <img src="./interface-1920.png" alt="Descrição da imagem">
     </picture>
 </body>
 </html>
