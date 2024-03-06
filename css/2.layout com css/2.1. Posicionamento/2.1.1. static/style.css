@@ -1,0 +1,23 @@
+.container{
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background:#444;
+}
+.contant-1{
+    background:#ce06b3;
+    position: static;
+}
+.contant-2{
+    background:#07db71;
+    position: static;
+
+}
+.contant-3{
+    background:#9e9623;
+    position: static;
+}
+.contant-4{
+    background:#0906c2;
+    position: static;
+}

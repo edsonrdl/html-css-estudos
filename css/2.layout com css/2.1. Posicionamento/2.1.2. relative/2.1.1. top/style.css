@@ -4,11 +4,14 @@ ody{
 #pai{
     width: 200px;
     height: 200px;
-    background: rgb(102, 102, 102);
+    background: rgb(192, 192, 192);
 }
 .filho{
     position: relative;
-    right: 30px;
+    top: 30px;
     height: 20px;
-    background: yellow;
+    width:100%;
+    background: rgb(221, 11, 11);
+ 
+
 }

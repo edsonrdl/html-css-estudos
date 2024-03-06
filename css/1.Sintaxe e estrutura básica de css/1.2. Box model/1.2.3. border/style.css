@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+    gap: 30px;
+    
+}
+/*border: [largura] [estilo] [cor];*/
+div{
+    height: 100px;
+    text-align: center;
+    width: 400px;
+    background: rgb(255, 255, 255);
+}
+#border-solid{
+    border: 30px dotted green;
+    
+}
+#border-dashed{
+    border: 30px dashed red;
+
+}
+#border-dotted{
+    border: 30px dotted green
+}
+#border-double{
+    border: 30px double orange;
+}
+#border-groove{
+    border: groove;
+    border-width: 30px; /* Define a largura da borda */
+    border-color: #b41792; 
+}
+#border-degrade{
+    border-width: 30px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #f06, #f90) 10;
+    border-image-slice: 1;
+}

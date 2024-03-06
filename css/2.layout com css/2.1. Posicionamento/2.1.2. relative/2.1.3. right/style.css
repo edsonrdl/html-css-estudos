@@ -1,4 +1,4 @@
-ody{
+body{
     background-color: rgb(255, 255, 255);
 }
 #pai{
@@ -8,7 +8,7 @@ ody{
 }
 .filho{
     position: relative;
-    bottom: 30px;
+    right: 30px;
     height: 20px;
     background: yellow;
 }
