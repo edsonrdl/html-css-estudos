@@ -1,0 +1,14 @@
+ody{
+    background-color: rgb(255, 255, 255);
+}
+#pai{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+}
+.filho{
+    position: relative;
+    right: 30px;
+    height: 20px;
+    background: yellow;
+}

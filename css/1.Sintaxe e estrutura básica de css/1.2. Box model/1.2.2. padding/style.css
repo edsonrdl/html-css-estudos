@@ -1,0 +1,46 @@
+/*Padding serve para por espaçamento interno nos elementos */
+/*Padding 1 2 3 4 */
+/*1-para cima, 2-para a direita, 3-para baixo 4-para a esquerda*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+#padding{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+    padding: 50px;
+}
+.conteudo{
+    background: yellow;
+    width:100%;
+    height:100%;
+}
+#padding-top{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+    padding-top: 50px;
+}
+#padding-bottom{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+    padding-bottom: 50px;
+}
+#padding-left{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+    padding-left: 50px;
+}
+#padding-right{
+    width: 200px;
+    height: 200px;
+    background: rgb(102, 102, 102);
+    padding-right: 50px;
+}
+
