@@ -1,0 +1,22 @@
+.container-flexvilidade-order{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 254, 254);
+
+}
+.container-order{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background: rgb(81, 128, 117);
+}
+.items{
+    text-align: center;
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.items:nth-child(2) {
+    order:1;
+  }

@@ -1,5 +1,1 @@
-## Anotações
-flex-wrap (Quebra de linha)
-flex-flow
 align-content
-flex-grow

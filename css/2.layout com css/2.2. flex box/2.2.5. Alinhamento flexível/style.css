@@ -1,0 +1,49 @@
+.container-alinhamento-dos-itens{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 254, 254);
+
+}
+.container-align-self-center{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background: rgb(81, 128, 117);
+}
+.items{
+    color: aliceblue;
+    background: red;
+}
+.align-self-center{
+    align-self: center;
+}
+/* self-center */
+.container-align-self-start{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    background: rgb(60, 27, 104);
+}
+.align-self-start{
+    align-self: start;
+}
+/* self-baseline */
+.container-align-self-baseline{
+    display: baseline;
+    width: 50%;
+    height: 300px;
+    background: rgb(60, 27, 104);
+}
+.align-self-baseline{
+    align-self: baseline;
+}
+/* self-stretch */
+.container-align-self-stretch{
+    display: stretch;
+    width: 50%;
+    height: 300px;
+    background: rgb(60, 27, 104);
+}
+.align-self-stretch{
+    align-self: stretch;
+}
