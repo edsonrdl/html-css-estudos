@@ -6,3 +6,4 @@ align-itens (Itens na  vertical)
 flex-wrap (Quebra de linha)
 flex-flow
 align-content
+flex-grow
