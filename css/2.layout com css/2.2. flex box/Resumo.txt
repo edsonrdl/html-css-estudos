@@ -1,0 +1,8 @@
+## Anotações
+display:flex
+flex-direction row,column
+justify-content (itens na linha horizontal quando é row e na vertical quando é column)
+align-itens (Itens na  vertical)
+flex-wrap (Quebra de linha)
+flex-flow
+align-content
