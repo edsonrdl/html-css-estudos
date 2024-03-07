@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Justify-content e align-teims</title>
+
+</head>
+
+
+<body>
+    <div class="container-espacamento-flexivel">
+        <div class="container-justify-content">
+            <h1>Utilizando Justify-content</h1>
+            <p style="color: red;">Observação ,os itens sempre vão está grudado no topo ,a propriedade que altera na vertical</p>
+            <p><b>Justify-content:flex-star</b>,fica no mesmo lugar por padrão no flex-direction-row no container pai</p>
+            <div class="container-Justify-content-flex-star">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+            <p><b>Justify-content:center</b>,os itens ficam centralizado</p>
+            <div class="container-Justify-content-center">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+            <p><b>Justify-content:flex-end</b>,fica no final da linha quando aplicado o flex-direction-row no container pai</p>
+            <div class="container-Justify-content-flex-end">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <p><b>Justify-content:space-between,espaçamento iguais entre os itens</b></p>
+            <div class="container-Justify-content-space-between">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <p><p>Justify-content:space-around,espaçamento na lateral,sempre mantendo espaço de um items mais o espaço do item adjacente</p></p>
+            <div class="container-Justify-content-space-around">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <p><b>Justify-content:space-evenly,deixa a distribuição de espaço uniforme</b></p>
+            <div class="container-Justify-content-space-evenly">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+        </div>
+        <div class="container-align-items">
+          
+            <p><b>align-items:star</b>,fica no mesmo lugar por padrão</p>
+            <div class="container-align-items-flex-star">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <h1>Utilizando Align-items</h1>
+            <p><b>align-items:center</b>,fica no mesmo lugar por padrão</p>
+            <div class="container-align-items-center">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <p><b>align-items:flex-end</b>,fica no final da linha</p>
+            <div class="container-align-items-flex-end">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+
+            <p><b>align-items-stretch</b>,vai esticar os items até 100% do container pai</p>
+            <div class="container-align-items-stretch">
+                <div class="itens">Caixa 1</div>
+                <div class="itens">Caixa 2</div>
+                <div class="itens">Caixa 3</div>
+                <div class="itens">Caixa 4</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

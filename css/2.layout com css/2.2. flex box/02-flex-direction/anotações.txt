@@ -1,2 +1,0 @@
-flex-direction: column --> vai ficar uma só coluna,todas as div organizadas uma em baixo da outra
-flex-direction: row --> vai ficar uma só coluna,todas as div organizadas uma ao lado da outra
