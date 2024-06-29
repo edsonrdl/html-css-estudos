@@ -1,6 +1,0 @@
-flex-flow row  nowrap vai ficar em linha, em apenas uma por causa do nowrap
-flex-flow row wrap vai ficar em linha, e vai ter mais linhas.
-
-flex-flow clomun nowrap vai ficar em coluna, em apenas uma por causa do nowrap
-flex-flow column wrap vai ficar em coluna, e vai ter mais colunas.
-

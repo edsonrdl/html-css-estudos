@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+    align-content: space-around; /* Define como o espaço entre e ao redor dos itens é distribuído */
+    height: 400px; /* Altura do contêiner para observar o comportamento do align-content */
+    border: 2px solid #000;
+}
+
+.flex-item {
+    flex: 0 0 30%; /* Define a base flexível dos itens */
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
