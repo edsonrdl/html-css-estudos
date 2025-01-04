@@ -4,20 +4,23 @@
     background: rgb(255, 254, 254);
 
 }
+.items{
+    color: rgb(197, 207, 215);
+    background: rgb(219, 126, 27);
+    width:40px ;
+    height:40px ;
+}
+/* self-center */
 .container-align-self-center{
     display: flex;
     width: 50%;
     height: 300px;
     background: rgb(81, 128, 117);
 }
-.items{
-    color: aliceblue;
-    background: red;
-}
 .align-self-center{
     align-self: center;
 }
-/* self-center */
+/* self-start */
 .container-align-self-start{
     display: flex;
     width: 50%;
